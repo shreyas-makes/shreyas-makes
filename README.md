@@ -1,3 +1,6 @@
+
+
+
 <br>
 
 [![Website](https://img.shields.io/badge/shreyasprakash.com-000000?style=flat-square&logoColor=white)](https://www.shreyasprakash.com)
@@ -57,7 +60,6 @@
 
 </div>
 
-## Featured Repositories
 
 <div align="center">
 
