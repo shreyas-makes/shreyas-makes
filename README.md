@@ -15,14 +15,30 @@
 
 ---
 
-**Open Source Contributions**  
-Building tools and experiments that solve real problems:
+## 🛠️ Open Source Projects
 
-• **[Chess Coach](https://chesscoach-one.vercel.app/)** → AI-powered chess improvement tool  
-• **[writing.humans](https://github.com/shreyas-makes/writing.humans)** → AI writing tool for 100% human writing  
-• **[Edit Next](https://github.com/shreyas-makes/editnext-plugin)** → Obsidian plugin to tackle your worst drafts first  
-• **[Magic Window](https://github.com/shreyas-makes/magic-window)** → Screen recorder with zoom effects  
-• **[Zotero Raycast](https://github.com/shreyas-makes/zotero-raycast)** → Cite research references super fast
+<table>
+  <tr>
+    <td><b><a href="https://chesscoach-one.vercel.app/">Chess Coach</a></b></td>
+    <td>AI-powered chess improvement tool that analyzes your games and provides personalized coaching</td>
+  </tr>
+  <tr>
+    <td><b><a href="https://github.com/shreyas-makes/writing.humans">writing.humans</a></b></td>
+    <td>AI writing assistant that helps you write more naturally and authentically</td>
+  </tr>
+  <tr>
+    <td><b><a href="https://github.com/shreyas-makes/editnext-plugin">Edit Next</a></b></td>
+    <td>Obsidian plugin that helps you prioritize and tackle your most challenging drafts</td>
+  </tr>
+  <tr>
+    <td><b><a href="https://github.com/shreyas-makes/magic-window">Magic Window</a></b></td>
+    <td>Screen recorder with smooth zoom transitions and effects for better presentations</td>
+  </tr>
+  <tr>
+    <td><b><a href="https://github.com/shreyas-makes/zotero-raycast">Zotero Raycast</a></b></td>
+    <td>Quick citation tool that seamlessly integrates Zotero with your workflow</td>
+  </tr>
+</table>
 
 
 ## Technologies
@@ -61,3 +77,5 @@ Building tools and experiments that solve real problems:
 </div>
 
 ---
+
+![Footer](https://capsule-render.vercel.app/api?type=rect&color=000000&height=50)
