@@ -72,6 +72,3 @@
 
 </div>
 
----
-
-![Footer](https://capsule-render.vercel.app/api?type=rect&color=000000&height=50)
