@@ -53,9 +53,6 @@
 <div align="center">
 
 <a href="https://github.com/shreyas-makes">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=shreyas-makes&show_icons=true&theme=transparent&hide_border=true&bg_color=ffffff&title_color=000000&icon_color=000000&text_color=000000"/>
-</a>
-<a href="https://github.com/shreyas-makes">
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreyas-makes&layout=compact&theme=transparent&hide_border=true&bg_color=ffffff&title_color=000000&text_color=000000&langs_count=6"/>
 </a>
 
