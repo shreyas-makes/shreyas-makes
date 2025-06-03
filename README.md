@@ -60,9 +60,6 @@
 
 </div>
 
-## Connect
-
-<div align="center">
 
 **Open to collaborations on projects that make the world a little better**
 
