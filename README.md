@@ -1,7 +1,5 @@
 
-<div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=rect&color=000000&fontColor=ffffff&height=200&section=header&text=Shreyas%20Prakash&fontSize=48&fontAlign=50&fontAlignY=40&desc=Building%20things%20that%20improve%20the%20world&descAlign=50&descAlignY=60&descSize=16)
 
 <br>
 
