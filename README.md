@@ -68,7 +68,5 @@
 
 <br><br>
 
-*If you find my work interesting, consider starring some repositories*
-
 </div>
 
