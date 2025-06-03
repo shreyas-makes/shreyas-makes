@@ -1,24 +1,27 @@
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=180&section=header&text=Shreyas%20Prakash&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=32&desc=Building%20things%20that%20improve%20the%20world&descAlignY=51&descAlign=center)
-
 <div align="center">
-  
-[![Website](https://img.shields.io/badge/Website-shreyasprakash.com-blue?style=for-the-badge&logo=safari&logoColor=white)](https://www.shreyasprakash.com)
-[![Twitter](https://img.shields.io/badge/Twitter-@shreyasprakash-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/shreyasmakes)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-shreyasprakash-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shreyasprakash)
 
+![Header](https://capsule-render.vercel.app/api?type=rect&color=000000&fontColor=ffffff&height=200&section=header&text=Shreyas%20Prakash&fontSize=48&fontAlign=50&fontAlignY=40&desc=Building%20things%20that%20improve%20the%20world&descAlign=50&descAlignY=60&descSize=16)
+
+<br>
+
+[![Website](https://img.shields.io/badge/shreyasprakash.com-000000?style=flat-square&logoColor=white)](https://www.shreyasprakash.com)
+[![Twitter](https://img.shields.io/badge/@shreyasmakes-000000?style=flat-square&logoColor=white)](https://twitter.com/shreyasmakes)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=flat-square&logoColor=white)](https://linkedin.com/in/shreyasprakash)
+
+<br><br>
 
 </div>
 
-## 👋 About Me
+---
+
+## About
 
 > *"Writing is thinking. Creating is living. Building is hoping."*
 
-Hi! I'm Shreyas, a Product Manager who believes in building things that are **positive sum and impactful**. I like trying to understand the world, creating things that improve it, and sharing knowledge freely on the Internet.
+Product Manager who believes in building things that are **positive sum and impactful**. I like trying to understand the world, creating things that improve it, and sharing knowledge freely on the Internet.
 
-🌍 **Based in:** London  
-🎯 **Current Role:** Product Manager at [Springer Nature](https://www.springernature.com/gp)  
-✍️ **Philosophy:** 10 years from now, or a 100, my writing might outlive me. This is my attempt at posterity.
+**London** • **Product Manager at Springer Nature** • **Philosophy:** 10 years from now, or a 100, my writing might outlive me. This is my attempt at posterity.
 
 ## 🚀 What I'm Working On
 
