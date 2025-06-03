@@ -48,7 +48,6 @@
 ![Node.js](https://img.shields.io/badge/Node.js-000000?style=flat-square&logo=node.js&logoColor=white)
 ![Ruby on Rails](https://img.shields.io/badge/Ruby%20on%20Rails-000000?style=flat-square&logo=ruby-on-rails&logoColor=white)
 
-## GitHub Activity
 
 <div align="center">
 
