@@ -63,8 +63,7 @@
 
 **Open to collaborations on projects that make the world a little better**
 
-[![Email](https://img.shields.io/badge/Contact-000000?style=flat-square&logoColor=white)](mailto:your-email@example.com)
-[![Calendar](https://img.shields.io/badge/Schedule%20Meeting-000000?style=flat-square&logoColor=white)](https://calendly.com/shreyasprakash)
+[![Email](https://img.shields.io/badge/Contact-000000?style=flat-square&logoColor=white)](mailto:shreyas314159@gmail.com)
 
 <br><br>
 
