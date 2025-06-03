@@ -60,39 +60,6 @@
 
 </div>
 
-
-<div align="center">
-
-<a href="https://github.com/shreyas-makes/astro-blog-ghost">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shreyas-makes&repo=astro-blog-ghost&theme=transparent&hide_border=true&bg_color=ffffff&title_color=000000&text_color=000000"/>
-</a>
-<a href="https://github.com/shreyas-makes/writing.humans">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shreyas-makes&repo=writing.humans&theme=transparent&hide_border=true&bg_color=ffffff&title_color=000000&text_color=000000"/>
-</a>
-<a href="https://github.com/shreyas-makes/chesscoach">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shreyas-makes&repo=chesscoach&theme=transparent&hide_border=true&bg_color=ffffff&title_color=000000&text_color=000000"/>
-</a>
-<a href="https://github.com/shreyas-makes/candor-teams">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shreyas-makes&repo=candor-teams&theme=transparent&hide_border=true&bg_color=ffffff&title_color=000000&text_color=000000"/>
-</a>
-<a href="https://github.com/shreyas-makes/magic-window">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shreyas-makes&repo=magic-window&theme=transparent&hide_border=true&bg_color=ffffff&title_color=000000&text_color=000000"/>
-</a>
-<a href="https://github.com/shreyas-makes/v0_rails">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shreyas-makes&repo=v0_rails&theme=transparent&hide_border=true&bg_color=ffffff&title_color=000000&text_color=000000"/>
-</a>
-<a href="https://github.com/shreyas-makes/jhanas-club">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shreyas-makes&repo=jhanas-club&theme=transparent&hide_border=true&bg_color=ffffff&title_color=000000&text_color=000000"/>
-</a>
-<a href="https://github.com/shreyas-makes/zotero-raycast">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shreyas-makes&repo=zotero-raycast&theme=transparent&hide_border=true&bg_color=ffffff&title_color=000000&text_color=000000"/>
-</a>
-<a href="https://github.com/shreyas-makes/founders_digest">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shreyas-makes&repo=founders_digest&theme=transparent&hide_border=true&bg_color=ffffff&title_color=000000&text_color=000000"/>
-</a>
-
-</div>
-
 ## Connect
 
 <div align="center">
