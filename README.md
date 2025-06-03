@@ -24,29 +24,9 @@ Building tools and experiments that solve real problems:
 • **[Magic Window](https://github.com/shreyas-makes/magic-window)** → Screen recorder with zoom effects  
 • **[Zotero Raycast](https://github.com/shreyas-makes/zotero-raycast)** → Cite research references super fast
 
-## Professional Journey
 
-```
-2024 → Present    Product Manager, Springer Nature (Scientific Publishing)
-2021 → 2024       Product Lead, Noora Health (Healthcare Innovation)  
-2020 → 2021       Co-founder & Product, UVfy (Hospital Safety Tech)
-2017 → 2020       Founding Director, Lead by Design Foundation (EdTech)
-```
+## Technologies
 
-**Academic Publishing** → Author Experience  
-**Healthcare** → Patient Prevention  
-**Assistive Technology** → Hospital Safety  
-**Educational Technology** → Social Innovation
-
-## Tech Stack
-
-**AI-Assisted Development**
-```
-Cursor IDE with Claude Sonnet for rapid prototyping
-Building with AI assistance for humanitarian projects
-Focus on shipping fast, impactful solutions
-```
-**Technologies**  
 ![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=white)
@@ -81,6 +61,3 @@ Focus on shipping fast, impactful solutions
 </div>
 
 ---
-
-![Footer](https://capsule-render.vercel.app/api?type=rect&color=000000&height=50)
-
