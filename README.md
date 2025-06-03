@@ -7,8 +7,6 @@
 [![Twitter](https://img.shields.io/badge/@shreyasmakes-000000?style=flat-square&logoColor=white)](https://twitter.com/shreyasmakes)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=flat-square&logoColor=white)](https://linkedin.com/in/shreyasprakash)
 
-<br>
-
 </div>
 
 ---
