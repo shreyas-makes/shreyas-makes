@@ -60,6 +60,7 @@
 
 </div>
 
+---
 
 **Open to collaborations on projects that make the world a little better**
 
