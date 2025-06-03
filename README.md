@@ -11,7 +11,7 @@
 
 ---
 
-## 🛠️ Open Source Projects
+## Open Source Projects
 
 <table>
   <tr>
