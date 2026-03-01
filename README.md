@@ -44,6 +44,16 @@ Product manager, AI builder
   </thead>
   <tbody>
     <!-- BLOG-POST-LIST:START -->
+    <tr><td>15 Feb 2026</td><td><a href="https://shreyasprakash.com/booknotes/five-dysfunctions-in-leadership/">Five dysfunctions</a></td></tr>
+    <tr><td>03 Jan 2026</td><td><a href="https://shreyasprakash.com/building-softwares-with-ai-agents/">How I started building softwares with AI agents being non technical</a></td></tr>
+    <tr><td>15 Nov 2025</td><td><a href="https://shreyasprakash.com/legible-illegible-work/">Legible and illegible tasks in organisations</a></td></tr>
+    <tr><td>27 Sep 2025</td><td><a href="https://shreyasprakash.com/l2-fat-market-sketches/">L2 Fat marker sketches</a></td></tr>
+    <tr><td>24 Aug 2025</td><td><a href="https://shreyasprakash.com/writing-moats/">Writing as moats for humans</a></td></tr>
+    <tr><td>23 Aug 2025</td><td><a href="https://shreyasprakash.com/booknotes/2025-08-23-butter/">Butter</a></td></tr>
+    <tr><td>23 Aug 2025</td><td><a href="https://shreyasprakash.com/booknotes/2025-08-23-antimimetics/">Antimimetics</a></td></tr>
+    <tr><td>23 Aug 2025</td><td><a href="https://shreyasprakash.com/booknotes/2025-08-31-days-at-the-morisaki-bookshop/">Days at the Morisaki Bookshop</a></td></tr>
+    <tr><td>09 Aug 2025</td><td><a href="https://shreyasprakash.com/second-degree-probe/">Beauty of second degree probes</a></td></tr>
+    <tr><td>26 Jul 2025</td><td><a href="https://shreyasprakash.com/read-raw-transcripts/">Read raw transcripts</a></td></tr>
     <!-- BLOG-POST-LIST:END -->
   </tbody>
 </table>
