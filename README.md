@@ -1,5 +1,7 @@
 # Hi, I'm Shreyas 👋
 
+Product manager, polyagentmorous builder
+
 📍 **London** 
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
