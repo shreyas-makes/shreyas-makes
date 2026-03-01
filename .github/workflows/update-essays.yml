@@ -15,17 +15,30 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Checkout blog source repo
+        uses: actions/checkout@v4
+        with:
+          repository: shreyas-makes/astro-blog-ghost
+          path: .tmp/astro-blog-ghost
+          fetch-depth: 1
+          sparse-checkout: |
+            src/content/posts
+
       - name: Render latest essays into README
         run: |
           node <<'NODE'
           const fs = require("fs");
+          const path = require("path");
 
           const README_PATH = "README.md";
-          const FEED_URL = "https://shreyasprakash.com/rss.xml";
+          const POSTS_DIR = ".tmp/astro-blog-ghost/src/content/posts";
+          const SITE_BASE_URL = "https://shreyasprakash.com";
           const START = "<!-- BLOG-POST-LIST:START -->";
           const END = "<!-- BLOG-POST-LIST:END -->";
-          const MAX_POSTS = 10;
+          const MAX_POSTS = 20;
           const EXCLUDED_CATEGORIES = new Set(["rough-notes", "booknotes", "books"]);
+          const EXCLUDED_DIRS = new Set(["attachments", "booknotes", "interviews"]);
+          const EXCLUDED_SLUGS = new Set(["now"]);
 
           function escapeHtml(value) {
             return String(value ?? "")
@@ -45,35 +58,137 @@ jobs:
             return `${day} ${month} ${year}`;
           }
 
-          async function fetchRssAsJson() {
-            const url =
-              "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(FEED_URL);
-            const response = await fetch(url, {
-              headers: {
-                "user-agent":
-                  "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-                accept: "application/json",
-              },
-            });
-            if (!response.ok) {
-              throw new Error(`rss2json request failed: ${response.status}`);
+          function toSlug(value) {
+            return String(value ?? "")
+              .toLowerCase()
+              .trim()
+              .replace(/[^a-z0-9\s-]/g, "")
+              .replace(/\s+/g, "-")
+              .replace(/-+/g, "-");
+          }
+
+          function stripQuotes(value) {
+            const trimmed = String(value ?? "").trim();
+            if (
+              (trimmed.startsWith('"') && trimmed.endsWith('"')) ||
+              (trimmed.startsWith("'") && trimmed.endsWith("'"))
+            ) {
+              return trimmed.slice(1, -1);
             }
-            const data = await response.json();
-            if (data.status !== "ok") {
-              throw new Error(`rss2json returned status=${data.status}`);
+            return trimmed;
+          }
+
+          function parseFrontmatter(fileContent) {
+            const match = fileContent.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+            if (!match) return null;
+
+            const lines = match[1].split(/\r?\n/);
+            const data = {};
+            let inTagsList = false;
+            const tags = [];
+
+            for (const rawLine of lines) {
+              const line = rawLine.trimEnd();
+              if (!line.trim()) continue;
+
+              if (inTagsList) {
+                const listMatch = line.match(/^\s*-\s*(.+)$/);
+                if (listMatch) {
+                  tags.push(stripQuotes(listMatch[1]));
+                  continue;
+                }
+                if (/^\w[\w-]*\s*:/.test(line)) {
+                  inTagsList = false;
+                } else {
+                  continue;
+                }
+              }
+
+              const kvMatch = line.match(/^(\w[\w-]*)\s*:\s*(.*)$/);
+              if (!kvMatch) continue;
+
+              const key = kvMatch[1];
+              const value = kvMatch[2];
+
+              if (key === "tags") {
+                if (!value || value === "[]") {
+                  inTagsList = true;
+                } else if (value.startsWith("[") && value.endsWith("]")) {
+                  value
+                    .slice(1, -1)
+                    .split(",")
+                    .map((item) => stripQuotes(item))
+                    .filter(Boolean)
+                    .forEach((item) => tags.push(item));
+                }
+                continue;
+              }
+
+              data[key] = stripQuotes(value);
             }
-            return Array.isArray(data.items) ? data.items : [];
+
+            data.tags = tags;
+            return data;
+          }
+
+          function walkMarkdownFiles(rootDir) {
+            const files = [];
+
+            function walk(currentDir) {
+              const entries = fs.readdirSync(currentDir, { withFileTypes: true });
+              for (const entry of entries) {
+                const fullPath = path.join(currentDir, entry.name);
+                if (entry.isDirectory()) {
+                  if (EXCLUDED_DIRS.has(entry.name.toLowerCase())) continue;
+                  walk(fullPath);
+                  continue;
+                }
+                if (entry.isFile() && fullPath.toLowerCase().endsWith(".md")) {
+                  files.push(fullPath);
+                }
+              }
+            }
+
+            walk(rootDir);
+            return files;
+          }
+
+          function loadPostsFromRepo() {
+            const files = walkMarkdownFiles(POSTS_DIR);
+            const posts = [];
+
+            for (const filePath of files) {
+              const content = fs.readFileSync(filePath, "utf8");
+              const frontmatter = parseFrontmatter(content);
+              if (!frontmatter) continue;
+
+              const title = frontmatter.title;
+              const date = frontmatter.date;
+              if (!title || !date) continue;
+
+              const draft = String(frontmatter.draft || "").toLowerCase() === "true";
+              if (draft) continue;
+
+              const tags = Array.isArray(frontmatter.tags) ? frontmatter.tags : [];
+              const normalizedTags = tags.map((tag) => String(tag).trim().toLowerCase());
+              if (normalizedTags.some((tag) => EXCLUDED_CATEGORIES.has(tag))) continue;
+
+              const slug = (frontmatter.slug || toSlug(title)).replace(/^\/+|\/+$/g, "");
+              if (!slug || EXCLUDED_SLUGS.has(slug.toLowerCase())) continue;
+
+              posts.push({
+                title,
+                pubDate: date,
+                link: `${SITE_BASE_URL}/${slug}/`,
+              });
+            }
+
+            posts.sort((a, b) => new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime());
+            return posts;
           }
 
           (async () => {
-            const items = (await fetchRssAsJson())
-              .filter((item) => {
-                const categories = Array.isArray(item.categories) ? item.categories : [];
-                return !categories.some(
-                  (category) => EXCLUDED_CATEGORIES.has(String(category).trim().toLowerCase())
-                );
-              })
-              .slice(0, MAX_POSTS);
+            const items = loadPostsFromRepo().slice(0, MAX_POSTS);
             const rows = items
               .map((item) => {
                 const date = formatDate(item.pubDate);
