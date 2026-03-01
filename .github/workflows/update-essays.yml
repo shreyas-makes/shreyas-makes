@@ -45,29 +45,51 @@ jobs:
             return `${day} ${month} ${year}`;
           }
 
-          async function fetchRssAsJson() {
-            const url =
-              "https://api.rss2json.com/v1/api.json?count=100&rss_url=" +
-              encodeURIComponent(FEED_URL);
-            const response = await fetch(url, {
+          function decodeXml(value) {
+            return String(value ?? "")
+              .replace(/<!\\[CDATA\\[([\\s\\S]*?)\\]\\]>/g, "$1")
+              .replace(/&lt;/g, "<")
+              .replace(/&gt;/g, ">")
+              .replace(/&quot;/g, '"')
+              .replace(/&#39;/g, "'")
+              .replace(/&apos;/g, "'")
+              .replace(/&amp;/g, "&");
+          }
+
+          function getFirstTag(block, tagName) {
+            const match = block.match(new RegExp(`<${tagName}>([\\s\\S]*?)<\\/${tagName}>`, "i"));
+            return match ? decodeXml(match[1].trim()) : "";
+          }
+
+          function getAllTags(block, tagName) {
+            return [...block.matchAll(new RegExp(`<${tagName}>([\\s\\S]*?)<\\/${tagName}>`, "gi"))].map(
+              (match) => decodeXml(match[1].trim())
+            );
+          }
+
+          async function fetchRssItems() {
+            const response = await fetch(FEED_URL, {
               headers: {
                 "user-agent":
                   "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-                accept: "application/json",
+                accept: "application/rss+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.5",
               },
             });
             if (!response.ok) {
-              throw new Error(`rss2json request failed: ${response.status}`);
+              throw new Error(`rss.xml request failed: ${response.status}`);
             }
-            const data = await response.json();
-            if (data.status !== "ok") {
-              throw new Error(`rss2json returned status=${data.status}`);
-            }
-            return Array.isArray(data.items) ? data.items : [];
+            const xml = await response.text();
+            const itemBlocks = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/gi)].map((match) => match[1]);
+            return itemBlocks.map((block) => ({
+              title: getFirstTag(block, "title"),
+              link: getFirstTag(block, "link"),
+              pubDate: getFirstTag(block, "pubDate"),
+              categories: getAllTags(block, "category"),
+            }));
           }
 
           (async () => {
-            const items = (await fetchRssAsJson())
+            const items = (await fetchRssItems())
               .filter((item) => {
                 const categories = Array.isArray(item.categories) ? item.categories : [];
                 return !categories.some(
