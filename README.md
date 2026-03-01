@@ -17,13 +17,13 @@ Product manager, AI builder
 - ♟️ **[chesscoach](https://github.com/shreyas-makes/chesscoach)** - AI chess coach for improving gameplay strategy.
 - ☎️ **[papercup-ai](https://github.com/shreyas-makes/papercup-ai)** - Make internet calls to international phone numbers.
 
-### Agentic workflow improvements
+### Agentic workflow improvements to help me build better with LLMs..
 - 🧼 **[deslopify](https://github.com/shreyas-makes/deslopify)** - Make AI writing sound more humane.
 - 🖼️ **[asciify](https://github.com/shreyas-makes/asciify)** - Generate ASCII diagrams for communicating UI visuals with LLMs
 - 🔎 **[semantic-search](https://github.com/shreyas-makes/semantic-search)** - Do fully local semantic search over your Obsidian vault.
 - 🧰 **[codex-skills](https://github.com/shreyas-makes/codex-skills)** - Personal library of reusable Codex skills and workflows.
 
-### Niche tools
+### Niche tools for my own N=1 use cases..
 - 📐 **[polygonfit](https://github.com/shreyas-makes/polygonfit)** - Rhino plugin for eliminating topology errors in polygons.
 - 😵 **[kaomoji-generator](https://github.com/shreyas-makes/kaomoji-generator)** - Quickly export kaomojis for instant messaging.
 - 🧩 **[twitter-to-trello](https://github.com/shreyas-makes/twitter-to-trello)** - Convert Twitter bookmarks into Trello TODO items.
