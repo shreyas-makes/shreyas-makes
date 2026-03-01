@@ -10,6 +10,9 @@ Product manager, AI builder
 ![Ruby](https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white)
 ![Rails](https://img.shields.io/badge/-Rails-D30001?style=flat-square&logo=rubyonrails&logoColor=white)
 
+# Open Source
+--
+
 ### Visions I've dreamt of, and which I built..
 - 💬 **[candor-teams](https://github.com/shreyas-makes/candor-teams)** - Public feedback board for transparent teams.
 - ✍️ **[signify-app](https://github.com/shreyas-makes/signify-app)** - Writing platform to share 100% human-verified content.
