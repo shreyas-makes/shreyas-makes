@@ -1,6 +1,6 @@
 # Hi, I'm Shreyas 👋
 
-📍 **Builder shipping practical AI products** | 🤖 **AI + Dev Tools** | ✍️ **Human-centered writing workflows**
+📍 **Product manager, AI builder** 
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -27,22 +27,12 @@
 - 😵 **[kaomoji-generator](https://github.com/shreyas-makes/kaomoji-generator)** - Quickly export kaomojis for instant messaging.
 - ♟️ **[chesscoach](https://github.com/shreyas-makes/chesscoach)** - AI chess coach for improving gameplay strategy.
 - 🧩 **[twitter-to-trello](https://github.com/shreyas-makes/twitter-to-trello)** - Convert Twitter bookmarks into Trello TODO items.
-- 🎥 **[magic-window](https://github.com/shreyas-makes/magic-window)** - Open source screen recorder with zoom effects.
-- 🥗 **[telegram-mealchat](https://github.com/shreyas-makes/telegram-mealchat)** - Telegram bot that recommends healthy food from meal photos.
 - ☁️ **[xp-clouds](https://github.com/shreyas-makes/xp-clouds)** - Playful cloud wallpaper experience for the web.
-- 👻 **[astro-blog-ghost](https://github.com/shreyas-makes/astro-blog-ghost)** - Ghost-powered blog built on Astro.
-- 🧘 **[jhanas-club](https://github.com/shreyas-makes/jhanas-club)** - Open library for jhana meditation resources.
-- 📚 **[nonfiction-bookchat](https://github.com/shreyas-makes/nonfiction-bookchat)** - Socratic dialogue interface for non-fiction books.
-- 🎙️ **[dicto](https://github.com/shreyas-makes/dicto)** - Open source local AI transcription app for Mac.
-- 🎧 **[spotify-transcripts](https://github.com/shreyas-makes/spotify-transcripts)** - Convert Spotify podcast episodes into Markdown transcripts.
-- 📝 **[chatsnip](https://github.com/shreyas-makes/chatsnip)** - Convert chat snippets with LLMs into clean markdown exports.
+- 👻 **[astro-blog-ghost](https://github.com/shreyas-makes/astro-blog-ghost)** - Personal website on Astro
 - 🧱 **[dftree](https://github.com/shreyas-makes/dftree)** - Generate a visual unicode file tree for any directory.
-- 📷 **[screenshot-md](https://github.com/shreyas-makes/screenshot-md)** - Convert screenshots into structured JSON, CSV, and Markdown.
-- 📚 **[zotero-raycast](https://github.com/shreyas-makes/zotero-raycast)** - Cite research references quickly from Raycast.
 - 🧾 **[git-commit-summarizer](https://github.com/shreyas-makes/git-commit-summarizer)** - Summarize codebase updates from git commits.
 - 🌐 **[simple-wiki-converter](https://github.com/shreyas-makes/simple-wiki-converter)** - Convert Wikipedia URLs into clean, reference-free text.
 - ☎️ **[papercup-ai](https://github.com/shreyas-makes/papercup-ai)** - Make internet calls to international phone numbers.
-- 🔇 **[fillerwordsai](https://github.com/shreyas-makes/fillerwordsai)** - Remove ums, ahs, and silence from videos.
 
 ## GitHub Activity
 
