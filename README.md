@@ -37,7 +37,7 @@ Product manager, AI builder
 
 ## Latest Essays
 
-<table>
+<table width="100%">
   <thead>
     <tr>
       <th>Date</th>
