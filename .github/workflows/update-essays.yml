@@ -47,7 +47,8 @@ jobs:
 
           async function fetchRssAsJson() {
             const url =
-              "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(FEED_URL);
+              "https://api.rss2json.com/v1/api.json?count=100&rss_url=" +
+              encodeURIComponent(FEED_URL);
             const response = await fetch(url, {
               headers: {
                 "user-agent":
