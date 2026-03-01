@@ -1,0 +1,27 @@
+name: Update README with latest essays
+
+on:
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update README with latest essays
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://shreyasprakash.com/rss.xml"
+          max_post_count: "10"
+          date_format: "dd mmm yyyy"
+          template: '<tr><td>$date</td><td><a href="$url">$title</a></td></tr>'
+          commit_message: "chore: update latest essays"
+          committer_username: "github-actions[bot]"
+          committer_email: "41898282+github-actions[bot]@users.noreply.github.com"

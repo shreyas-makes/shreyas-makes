@@ -33,3 +33,17 @@ Product manager, AI builder
 - 🧾 **[git-commit-summarizer](https://github.com/shreyas-makes/git-commit-summarizer)** - Summarize codebase updates from git commits.
 - 🌐 **[simple-wiki-converter](https://github.com/shreyas-makes/simple-wiki-converter)** - Convert Wikipedia URLs into clean, reference-free text.
 
+## Latest Essays
+
+<table>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Title</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- BLOG-POST-LIST:START -->
+    <!-- BLOG-POST-LIST:END -->
+  </tbody>
+</table>
