@@ -12,7 +12,6 @@
 ![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![CLI](https://img.shields.io/badge/-CLI-000000?style=flat-square&logo=gnu-bash&logoColor=white)
 
-> I build small, useful software fast: writing tools, AI workflows, developer utilities, and experiments that ship.
 
 ## Current Projects
 
@@ -33,18 +32,3 @@
 - 🧾 **[git-commit-summarizer](https://github.com/shreyas-makes/git-commit-summarizer)** - Summarize codebase updates from git commits.
 - 🌐 **[simple-wiki-converter](https://github.com/shreyas-makes/simple-wiki-converter)** - Convert Wikipedia URLs into clean, reference-free text.
 - ☎️ **[papercup-ai](https://github.com/shreyas-makes/papercup-ai)** - Make internet calls to international phone numbers.
-
-## GitHub Activity
-
-![GitHub Contribution Graph](https://ghchart.rshah.org/shreyas-makes)
-
-## Connect
-
-[![GitHub](https://img.shields.io/badge/-shreyas--makes-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/shreyas-makes)
-[![Website](https://img.shields.io/badge/-signifywriting.com-0A66C2?style=flat-square&logo=google-chrome&logoColor=white)](https://www.signifywriting.com/)
-[![Kaomoji](https://img.shields.io/badge/-kaomoji%20generator-111111?style=flat-square&logo=vercel&logoColor=white)](https://kaomoji-generator.vercel.app)
-[![Chesscoach](https://img.shields.io/badge/-chesscoach-00897B?style=flat-square&logo=chess.com&logoColor=white)](https://chesscoach-one.vercel.app)
-
----
-
-> Ship fast, iterate hard, keep it useful.
