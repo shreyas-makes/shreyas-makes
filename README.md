@@ -10,20 +10,20 @@ Product manager, AI builder
 ![Ruby](https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white)
 ![Rails](https://img.shields.io/badge/-Rails-D30001?style=flat-square&logo=rubyonrails&logoColor=white)
 
-## Visions
+### Visions
 - 💬 **[candor-teams](https://github.com/shreyas-makes/candor-teams)** - Public feedback board for transparent teams.
 - ✍️ **[signify-app](https://github.com/shreyas-makes/signify-app)** - Writing platform to share 100% human-verified content.
 - 🎬 **[mmmmh](https://github.com/shreyas-makes/mmmmh)** - Make YouTube videos snappier by removing silences and filler speech.
 - ♟️ **[chesscoach](https://github.com/shreyas-makes/chesscoach)** - AI chess coach for improving gameplay strategy.
 - ☎️ **[papercup-ai](https://github.com/shreyas-makes/papercup-ai)** - Make internet calls to international phone numbers.
 
-## Workflow improvements
+### Workflow improvements
 - 🧼 **[deslopify](https://github.com/shreyas-makes/deslopify)** - Make AI writing sound more humane.
 - 🖼️ **[asciify](https://github.com/shreyas-makes/asciify)** - Generate ASCII diagrams for communicating UI visuals with LLMs
 - 🔎 **[semantic-search](https://github.com/shreyas-makes/semantic-search)** - Do fully local semantic search over your Obsidian vault.
 - 🧰 **[codex-skills](https://github.com/shreyas-makes/codex-skills)** - Personal library of reusable Codex skills and workflows.
 
-## Niche tools
+### Niche tools
 - 📐 **[polygonfit](https://github.com/shreyas-makes/polygonfit)** - Rhino plugin for eliminating topology errors in polygons.
 - 😵 **[kaomoji-generator](https://github.com/shreyas-makes/kaomoji-generator)** - Quickly export kaomojis for instant messaging.
 - 🧩 **[twitter-to-trello](https://github.com/shreyas-makes/twitter-to-trello)** - Convert Twitter bookmarks into Trello TODO items.
