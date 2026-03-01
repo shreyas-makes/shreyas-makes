@@ -52,6 +52,20 @@ Product manager, AI builder
     <tr><td>24 Aug 2025</td><td><a href="https://shreyasprakash.com/writing-moats/">Writing as moats for humans</a></td></tr>
     <tr><td>09 Aug 2025</td><td><a href="https://shreyasprakash.com/second-degree-probe/">Beauty of second degree probes</a></td></tr>
     <tr><td>26 Jul 2025</td><td><a href="https://shreyasprakash.com/read-raw-transcripts/">Read raw transcripts</a></td></tr>
+    <tr><td>25 Jul 2025</td><td><a href="https://shreyasprakash.com/boundary-objects/">Boundary objects as the new prototypes</a></td></tr>
+    <tr><td>28 May 2025</td><td><a href="https://shreyasprakash.com/one-way-doors/">One way door decisions</a></td></tr>
+    <tr><td>24 May 2025</td><td><a href="https://shreyasprakash.com/finished-software/">Finished softwares should exist</a></td></tr>
+    <tr><td>07 May 2025</td><td><a href="https://shreyasprakash.com/editnext/">Essay Quality Ranker</a></td></tr>
+    <tr><td>05 May 2025</td><td><a href="https://shreyasprakash.com/chatsnip/">Export LLM conversations as snippets</a></td></tr>
+    <tr><td>08 Apr 2025</td><td><a href="https://shreyasprakash.com/greenfield-apps/">How I build greenfield apps with AI-assisted coding</a></td></tr>
+    <tr><td>07 Apr 2025</td><td><a href="https://shreyasprakash.com/stag-hunt-prisoners-dilemma/">Classify incentive problems into stag hunts, and prisoners dilemmas</a></td></tr>
+    <tr><td>28 Mar 2025</td><td><a href="https://shreyasprakash.com/hyperpersonalised-learning/">Hyperpersonalised N=1 learning</a></td></tr>
+    <tr><td>19 Mar 2025</td><td><a href="https://shreyasprakash.com/software-essays/">New mediums for humans to complement superintelligence</a></td></tr>
+    <tr><td>15 Mar 2025</td><td><a href="https://shreyasprakash.com/maxims-ai-assisted-coding-cursor/">Maxims for AI assisted coding</a></td></tr>
+    <tr><td>14 Mar 2025</td><td><a href="https://shreyasprakash.com/personal-website-starter-kit/">Personal Website Starter Kit</a></td></tr>
+    <tr><td>22 Feb 2025</td><td><a href="https://shreyasprakash.com/virtual-bookshelf/">Virtual bookshelves</a></td></tr>
+    <tr><td>14 Feb 2025</td><td><a href="https://shreyasprakash.com/kaomoji-generator/">Kaomoji generator</a></td></tr>
+    <tr><td>14 Feb 2025</td><td><a href="https://shreyasprakash.com/copy-paste-and-cite/">Copy, Paste and Cite</a></td></tr>
     <!-- BLOG-POST-LIST:END -->
   </tbody>
 </table>
