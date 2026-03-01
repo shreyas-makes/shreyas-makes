@@ -9,8 +9,6 @@
 ![Rails](https://img.shields.io/badge/-Rails-D30001?style=flat-square&logo=rubyonrails&logoColor=white)
 
 
-## OSS
-
 - 💬 **[candor-teams](https://github.com/shreyas-makes/candor-teams)** - Public feedback board for transparent teams.
 - ✍️ **[signify-app](https://github.com/shreyas-makes/signify-app)** - Writing platform to share 100% human-verified content.
 - 🎬 **[mmmmh](https://github.com/shreyas-makes/mmmmh)** - Make YouTube videos snappier by removing silences and filler speech.
