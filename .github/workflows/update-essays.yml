@@ -25,6 +25,7 @@ jobs:
           const START = "<!-- BLOG-POST-LIST:START -->";
           const END = "<!-- BLOG-POST-LIST:END -->";
           const MAX_POSTS = 10;
+          const EXCLUDED_CATEGORIES = new Set(["rough-notes", "booknotes", "books"]);
 
           function escapeHtml(value) {
             return String(value ?? "")
@@ -69,7 +70,7 @@ jobs:
               .filter((item) => {
                 const categories = Array.isArray(item.categories) ? item.categories : [];
                 return !categories.some(
-                  (category) => String(category).trim().toLowerCase() === "rough-notes"
+                  (category) => EXCLUDED_CATEGORIES.has(String(category).trim().toLowerCase())
                 );
               })
               .slice(0, MAX_POSTS);
