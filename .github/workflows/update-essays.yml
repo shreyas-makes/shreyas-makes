@@ -21,10 +21,10 @@ jobs:
           const fs = require("fs");
 
           const README_PATH = "README.md";
-          const FEED_PAGE_URL = "https://shreyasprakash.com/feed/";
+          const FEED_URL = "https://shreyasprakash.com/rss.xml";
           const START = "<!-- BLOG-POST-LIST:START -->";
           const END = "<!-- BLOG-POST-LIST:END -->";
-          const MAX_POSTS = 20;
+          const MAX_POSTS = 10;
           const EXCLUDED_CATEGORIES = new Set(["rough-notes", "booknotes", "books"]);
 
           function escapeHtml(value) {
@@ -45,58 +45,28 @@ jobs:
             return `${day} ${month} ${year}`;
           }
 
-          function decodeHtml(value) {
-            return String(value ?? "")
-              .replace(/&lt;/g, "<")
-              .replace(/&gt;/g, ">")
-              .replace(/&quot;/g, '"')
-              .replace(/&#34;/g, '"')
-              .replace(/&#39;/g, "'")
-              .replace(/&apos;/g, "'")
-              .replace(/&amp;/g, "&");
-          }
-
-          function parseTagList(tagListLiteral) {
-            return tagListLiteral
-              .split(",")
-              .map((tag) => tag.trim().replace(/^"(.*)"$/, "$1"))
-              .filter(Boolean);
-          }
-
-          async function fetchFeedItems() {
-            const response = await fetch(FEED_PAGE_URL, {
+          async function fetchRssAsJson() {
+            const url =
+              "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(FEED_URL);
+            const response = await fetch(url, {
               headers: {
                 "user-agent":
                   "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-                accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                accept: "application/json",
               },
             });
             if (!response.ok) {
-              throw new Error(`feed page request failed: ${response.status}`);
+              throw new Error(`rss2json request failed: ${response.status}`);
             }
-            const html = decodeHtml(await response.text());
-            const matcher =
-              /\{"slug":"([^"]+)","id":"[^"]*","title":"([^"]+)","date":"([^"]+)","tags":\[([^\]]*)\]/g;
-
-            const items = [];
-            let match;
-            while ((match = matcher.exec(html)) !== null) {
-              const slug = match[1].replace(/^\/+|\/+$/g, "");
-              items.push({
-                title: match[2],
-                link: `https://shreyasprakash.com/${slug}/`,
-                pubDate: match[3],
-                categories: parseTagList(match[4]),
-              });
+            const data = await response.json();
+            if (data.status !== "ok") {
+              throw new Error(`rss2json returned status=${data.status}`);
             }
-            if (items.length === 0) {
-              throw new Error("no posts parsed from feed page");
-            }
-            return items;
+            return Array.isArray(data.items) ? data.items : [];
           }
 
           (async () => {
-            const items = (await fetchFeedItems())
+            const items = (await fetchRssAsJson())
               .filter((item) => {
                 const categories = Array.isArray(item.categories) ? item.categories : [];
                 return !categories.some(
