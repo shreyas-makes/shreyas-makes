@@ -65,7 +65,14 @@ jobs:
           }
 
           (async () => {
-            const items = (await fetchRssAsJson()).slice(0, MAX_POSTS);
+            const items = (await fetchRssAsJson())
+              .filter((item) => {
+                const categories = Array.isArray(item.categories) ? item.categories : [];
+                return !categories.some(
+                  (category) => String(category).trim().toLowerCase() === "rough-notes"
+                );
+              })
+              .slice(0, MAX_POSTS);
             const rows = items
               .map((item) => {
                 const date = formatDate(item.pubDate);
