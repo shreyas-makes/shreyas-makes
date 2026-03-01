@@ -15,15 +15,92 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Update README with latest essays
-        uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          feed_list: "https://shreyasprakash.com/rss.xml"
-          max_post_count: "10"
-          date_format: "dd mmm yyyy"
-          user_agent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-          accept_header: "*/*"
-          template: '<tr><td>$date</td><td><a href="$url">$title</a></td></tr>'
-          commit_message: "chore: update latest essays"
-          committer_username: "github-actions[bot]"
-          committer_email: "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Render latest essays into README
+        run: |
+          node <<'NODE'
+          const fs = require("fs");
+
+          const README_PATH = "README.md";
+          const FEED_URL = "https://shreyasprakash.com/rss.xml";
+          const START = "<!-- BLOG-POST-LIST:START -->";
+          const END = "<!-- BLOG-POST-LIST:END -->";
+          const MAX_POSTS = 10;
+
+          function escapeHtml(value) {
+            return String(value ?? "")
+              .replace(/&/g, "&amp;")
+              .replace(/</g, "&lt;")
+              .replace(/>/g, "&gt;")
+              .replace(/"/g, "&quot;")
+              .replace(/'/g, "&#39;");
+          }
+
+          function formatDate(dateLike) {
+            const d = new Date(dateLike);
+            if (Number.isNaN(d.getTime())) return "";
+            const day = String(d.getUTCDate()).padStart(2, "0");
+            const month = d.toLocaleString("en-US", { month: "short", timeZone: "UTC" });
+            const year = d.getUTCFullYear();
+            return `${day} ${month} ${year}`;
+          }
+
+          async function fetchRssAsJson() {
+            const url =
+              "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(FEED_URL);
+            const response = await fetch(url, {
+              headers: {
+                "user-agent":
+                  "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+                accept: "application/json",
+              },
+            });
+            if (!response.ok) {
+              throw new Error(`rss2json request failed: ${response.status}`);
+            }
+            const data = await response.json();
+            if (data.status !== "ok") {
+              throw new Error(`rss2json returned status=${data.status}`);
+            }
+            return Array.isArray(data.items) ? data.items : [];
+          }
+
+          (async () => {
+            const items = (await fetchRssAsJson()).slice(0, MAX_POSTS);
+            const rows = items
+              .map((item) => {
+                const date = formatDate(item.pubDate);
+                const title = escapeHtml(item.title);
+                const link = escapeHtml(item.link);
+                return `    <tr><td>${date}</td><td><a href="${link}">${title}</a></td></tr>`;
+              })
+              .join("\n");
+
+            const readme = fs.readFileSync(README_PATH, "utf8");
+            const pattern = new RegExp(`(${START})([\\s\\S]*?)(${END})`, "m");
+            if (!pattern.test(readme)) {
+              throw new Error("README markers not found");
+            }
+
+            const replacement = `${START}\n${rows}\n    ${END}`;
+            const updated = readme.replace(pattern, replacement);
+            fs.writeFileSync(README_PATH, updated, "utf8");
+
+            console.log(`Rendered ${items.length} essay rows into README.md`);
+          })().catch((error) => {
+            console.error(error);
+            process.exit(1);
+          });
+          NODE
+
+      - name: Commit and push README changes
+        run: |
+          if git diff --quiet README.md; then
+            echo "No README changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update latest essays"
+          git push
