@@ -13,7 +13,7 @@ Product manager, AI builder
 ### Visions I've dreamt of, and which I built..
 - 💬 **[candor-teams](https://github.com/shreyas-makes/candor-teams)** - Public feedback board for transparent teams.
 - ✍️ **[signify-app](https://github.com/shreyas-makes/signify-app)** - Writing platform to share 100% human-verified content.
-- 🎬 **[mmmmh](https://github.com/shreyas-makes/mmmmh)** - Make YouTube videos snappier by removing silences and filler speech.
+- 🎬 **[mmmmh](https://github.com/shreyas-makes/mmmmh)** - One-click production ready YouTube videos, add captions, remove silences, and filler texts..
 - ♟️ **[chesscoach](https://github.com/shreyas-makes/chesscoach)** - AI chess coach for improving gameplay strategy.
 - ☎️ **[papercup-ai](https://github.com/shreyas-makes/papercup-ai)** - Make internet calls to international phone numbers.
 
