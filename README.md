@@ -1,6 +1,6 @@
 # Hi, I'm Shreyas 👋
 
-Product manager, polyagentmorous builder
+Product manager, AI builder
 
 📍 **London** 
 
