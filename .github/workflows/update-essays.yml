@@ -24,7 +24,7 @@ jobs:
           const FEED_URL = "https://shreyasprakash.com/rss.xml";
           const START = "<!-- BLOG-POST-LIST:START -->";
           const END = "<!-- BLOG-POST-LIST:END -->";
-          const MAX_POSTS = 10;
+          const MAX_POSTS = 20;
           const EXCLUDED_CATEGORIES = new Set(["rough-notes", "booknotes", "books"]);
 
           function escapeHtml(value) {
