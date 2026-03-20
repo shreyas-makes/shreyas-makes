@@ -9,10 +9,12 @@ Product manager, AI builder
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Ruby](https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white)
 ![Rails](https://img.shields.io/badge/-Rails-D30001?style=flat-square&logo=rubyonrails&logoColor=white)
+![Rust](https://img.shields.io/badge/-Rust-DEA584?style=flat-square&logo=rust&logoColor=white)
 
 # Open Source
 
 ### Visions I've dreamt of, and which I built..
+- 👻 **[ghost-in-a-shell](https://github.com/shreyas-makes/ghost-in-a-shell)** - Mac OS first, Ghostty-native workspace orchestrator.
 - 💬 **[candor-teams](https://github.com/shreyas-makes/candor-teams)** - Public feedback board for transparent teams.
 - ✍️ **[signify-app](https://github.com/shreyas-makes/signify-app)** - Writing platform to share 100% human-verified content.
 - 🎬 **[mmmmh](https://github.com/shreyas-makes/mmmmh)** - One-click production ready YouTube videos, add captions, remove silences, and filler texts..
