@@ -52,6 +52,7 @@ Product manager, AI builder
     <!-- BLOG-POST-LIST:START -->
     <tr><td>21 Mar 2026</td><td><a href="https://shreyasprakash.com/breadboarding/">Breadboarding, shaping, slicing, and steelthreading solutions with AI agents</a></td></tr>
     <tr><td>06 Feb 2026</td><td><a href="https://shreyasprakash.com/healthy-conflict-in-teams-have-a-tipping-point/">Healthy conflict in teams have a tipping point</a></td></tr>
+    <tr><td>12 Jan 2026</td><td><a href="https://shreyasprakash.com/deslopify-ai-writing/">Deslopify AI writing</a></td></tr>
     <tr><td>03 Jan 2026</td><td><a href="https://shreyasprakash.com/building-softwares-with-ai-agents/">How I started building softwares with AI agents being non technical</a></td></tr>
     <tr><td>15 Nov 2025</td><td><a href="https://shreyasprakash.com/legible-illegible-work/">Legible and illegible tasks in organisations</a></td></tr>
     <tr><td>27 Sep 2025</td><td><a href="https://shreyasprakash.com/l2-fat-market-sketches/">L2 Fat marker sketches</a></td></tr>
@@ -69,7 +70,6 @@ Product manager, AI builder
     <tr><td>19 Mar 2025</td><td><a href="https://shreyasprakash.com/software-essays/">New mediums for humans to complement superintelligence</a></td></tr>
     <tr><td>15 Mar 2025</td><td><a href="https://shreyasprakash.com/maxims-ai-assisted-coding-cursor/">Maxims for AI assisted coding</a></td></tr>
     <tr><td>14 Mar 2025</td><td><a href="https://shreyasprakash.com/personal-website-starter-kit/">Personal Website Starter Kit</a></td></tr>
-    <tr><td>22 Feb 2025</td><td><a href="https://shreyasprakash.com/virtual-bookshelf/">Virtual bookshelves</a></td></tr>
     <!-- BLOG-POST-LIST:END -->
   </tbody>
 </table>
