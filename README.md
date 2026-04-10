@@ -50,6 +50,7 @@ Product manager, AI builder
   </thead>
   <tbody>
     <!-- BLOG-POST-LIST:START -->
+    <tr><td>07 Apr 2026</td><td><a href="https://shreyasprakash.com/map-is-not-the-territory/">Map is not the territory</a></td></tr>
     <tr><td>21 Mar 2026</td><td><a href="https://shreyasprakash.com/breadboarding/">Breadboarding, shaping, slicing, and steelthreading solutions with AI agents</a></td></tr>
     <tr><td>06 Feb 2026</td><td><a href="https://shreyasprakash.com/healthy-conflict-in-teams-have-a-tipping-point/">Healthy conflict in teams have a tipping point</a></td></tr>
     <tr><td>12 Jan 2026</td><td><a href="https://shreyasprakash.com/deslopify-ai-writing/">Deslopify AI writing</a></td></tr>
@@ -69,7 +70,6 @@ Product manager, AI builder
     <tr><td>28 Mar 2025</td><td><a href="https://shreyasprakash.com/hyperpersonalised-learning/">Hyperpersonalised N=1 learning</a></td></tr>
     <tr><td>19 Mar 2025</td><td><a href="https://shreyasprakash.com/software-essays/">New mediums for humans to complement superintelligence</a></td></tr>
     <tr><td>15 Mar 2025</td><td><a href="https://shreyasprakash.com/maxims-ai-assisted-coding-cursor/">Maxims for AI assisted coding</a></td></tr>
-    <tr><td>14 Mar 2025</td><td><a href="https://shreyasprakash.com/personal-website-starter-kit/">Personal Website Starter Kit</a></td></tr>
     <!-- BLOG-POST-LIST:END -->
   </tbody>
 </table>
