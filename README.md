@@ -51,7 +51,7 @@ Product manager, AI builder
   <tbody>
     <!-- BLOG-POST-LIST:START -->
     <tr><td>07 Apr 2026</td><td><a href="https://shreyasprakash.com/map-is-not-the-territory/">Map is not the territory</a></td></tr>
-    <tr><td>06 Apr 2026</td><td><a href="https://shreyasprakash.com/null/">Hegelian dialectic for structured reasoning with AI agents</a></td></tr>
+    <tr><td>06 Apr 2026</td><td><a href="https://shreyasprakash.com/hegelian-dialectic-for-structured-reasoning-with-ai-agents/">Hegelian dialectic for structured reasoning with AI agents</a></td></tr>
     <tr><td>21 Mar 2026</td><td><a href="https://shreyasprakash.com/breadboarding/">Breadboarding, shaping, slicing, and steelthreading solutions with AI agents</a></td></tr>
     <tr><td>12 Jan 2026</td><td><a href="https://shreyasprakash.com/null/">Deslopify AI writing</a></td></tr>
     <tr><td>03 Jan 2026</td><td><a href="https://shreyasprakash.com/building-softwares-with-ai-agents/">How I started building softwares with AI agents being non technical</a></td></tr>
