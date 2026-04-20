@@ -50,26 +50,26 @@ Product manager, AI builder
   </thead>
   <tbody>
     <!-- BLOG-POST-LIST:START -->
+    <tr><td>11 Apr 2026</td><td><a href="https://shreyasprakash.com/writing-essays-2026/">How I write essays in 2026</a></td></tr>
     <tr><td>07 Apr 2026</td><td><a href="https://shreyasprakash.com/map-is-not-the-territory/">Map is not the territory</a></td></tr>
     <tr><td>06 Apr 2026</td><td><a href="https://shreyasprakash.com/hegelian-dialectic-for-structured-reasoning-with-ai-agents/">Hegelian dialectic for structured reasoning with AI agents</a></td></tr>
+    <tr><td>03 Apr 2026</td><td><a href="https://shreyasprakash.com/how-i-prepare-for-tough-negotiations-nowadays/">How I prepare for tough negotiations nowadays</a></td></tr>
+    <tr><td>02 Apr 2026</td><td><a href="https://shreyasprakash.com/steelthread-anything/">When should we steelthread something</a></td></tr>
     <tr><td>21 Mar 2026</td><td><a href="https://shreyasprakash.com/breadboarding/">Breadboarding, shaping, slicing, and steelthreading solutions with AI agents</a></td></tr>
-    <tr><td>12 Jan 2026</td><td><a href="https://shreyasprakash.com/null/">Deslopify AI writing</a></td></tr>
     <tr><td>03 Jan 2026</td><td><a href="https://shreyasprakash.com/building-softwares-with-ai-agents/">How I started building softwares with AI agents being non technical</a></td></tr>
+    <tr><td>03 Jan 2026</td><td><a href="https://shreyasprakash.com/read-raw-transcripts/">Read raw transcripts</a></td></tr>
     <tr><td>15 Nov 2025</td><td><a href="https://shreyasprakash.com/legible-illegible-work/">Legible and illegible tasks in organisations</a></td></tr>
     <tr><td>27 Sep 2025</td><td><a href="https://shreyasprakash.com/l2-fat-market-sketches/">L2 Fat marker sketches</a></td></tr>
     <tr><td>24 Aug 2025</td><td><a href="https://shreyasprakash.com/writing-moats/">Writing as moats for humans</a></td></tr>
     <tr><td>09 Aug 2025</td><td><a href="https://shreyasprakash.com/second-degree-probe/">Beauty of second degree probes</a></td></tr>
-    <tr><td>26 Jul 2025</td><td><a href="https://shreyasprakash.com/read-raw-transcripts/">Read raw transcripts</a></td></tr>
     <tr><td>25 Jul 2025</td><td><a href="https://shreyasprakash.com/boundary-objects/">Boundary objects as the new prototypes</a></td></tr>
     <tr><td>28 May 2025</td><td><a href="https://shreyasprakash.com/one-way-doors/">One way door decisions</a></td></tr>
     <tr><td>24 May 2025</td><td><a href="https://shreyasprakash.com/finished-software/">Finished softwares should exist</a></td></tr>
+    <tr><td>07 May 2025</td><td><a href="https://shreyasprakash.com/editnext/">How I periodically rank my rough drafts</a></td></tr>
     <tr><td>07 May 2025</td><td><a href="https://shreyasprakash.com/editnext/">Essay Quality Ranker</a></td></tr>
     <tr><td>05 May 2025</td><td><a href="https://shreyasprakash.com/chatsnip/">Export LLM conversations as snippets</a></td></tr>
     <tr><td>08 Apr 2025</td><td><a href="https://shreyasprakash.com/greenfield-apps/">How I build greenfield apps with AI-assisted coding</a></td></tr>
     <tr><td>07 Apr 2025</td><td><a href="https://shreyasprakash.com/stag-hunt-prisoners-dilemma/">Classify incentive problems into stag hunts, and prisoners dilemmas</a></td></tr>
-    <tr><td>28 Mar 2025</td><td><a href="https://shreyasprakash.com/hyperpersonalised-learning/">Hyperpersonalised N=1 learning</a></td></tr>
-    <tr><td>19 Mar 2025</td><td><a href="https://shreyasprakash.com/software-essays/">New mediums for humans to complement superintelligence</a></td></tr>
-    <tr><td>15 Mar 2025</td><td><a href="https://shreyasprakash.com/maxims-ai-assisted-coding-cursor/">Maxims for AI assisted coding</a></td></tr>
     <!-- BLOG-POST-LIST:END -->
   </tbody>
 </table>
