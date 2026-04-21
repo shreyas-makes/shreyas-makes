@@ -66,10 +66,10 @@ Product manager, AI builder
     <tr><td>28 May 2025</td><td><a href="https://shreyasprakash.com/one-way-doors/">One way door decisions</a></td></tr>
     <tr><td>24 May 2025</td><td><a href="https://shreyasprakash.com/finished-software/">Finished softwares should exist</a></td></tr>
     <tr><td>07 May 2025</td><td><a href="https://shreyasprakash.com/editnext/">How I periodically rank my rough drafts</a></td></tr>
-    <tr><td>07 May 2025</td><td><a href="https://shreyasprakash.com/editnext/">Essay Quality Ranker</a></td></tr>
-    <tr><td>05 May 2025</td><td><a href="https://shreyasprakash.com/chatsnip/">Export LLM conversations as snippets</a></td></tr>
     <tr><td>08 Apr 2025</td><td><a href="https://shreyasprakash.com/greenfield-apps/">How I build greenfield apps with AI-assisted coding</a></td></tr>
     <tr><td>07 Apr 2025</td><td><a href="https://shreyasprakash.com/stag-hunt-prisoners-dilemma/">Classify incentive problems into stag hunts, and prisoners dilemmas</a></td></tr>
+    <tr><td>28 Mar 2025</td><td><a href="https://shreyasprakash.com/hyperpersonalised-learning/">Hyperpersonalised N=1 learning</a></td></tr>
+    <tr><td>19 Mar 2025</td><td><a href="https://shreyasprakash.com/software-essays/">New mediums for humans to complement superintelligence</a></td></tr>
     <!-- BLOG-POST-LIST:END -->
   </tbody>
 </table>
