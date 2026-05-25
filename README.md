@@ -50,6 +50,7 @@ Product manager, AI builder
   </thead>
   <tbody>
     <!-- BLOG-POST-LIST:START -->
+    <tr><td>08 May 2026</td><td><a href="https://shreyasprakash.com/hammock-driven-development/">Hammock driven development</a></td></tr>
     <tr><td>11 Apr 2026</td><td><a href="https://shreyasprakash.com/writing-essays-2026/">How I write essays in 2026</a></td></tr>
     <tr><td>07 Apr 2026</td><td><a href="https://shreyasprakash.com/map-is-not-the-territory/">Map is not the territory</a></td></tr>
     <tr><td>06 Apr 2026</td><td><a href="https://shreyasprakash.com/hegelian-dialectic-for-structured-reasoning-with-ai-agents/">Hegelian dialectic for structured reasoning with AI agents</a></td></tr>
@@ -69,7 +70,6 @@ Product manager, AI builder
     <tr><td>08 Apr 2025</td><td><a href="https://shreyasprakash.com/greenfield-apps/">How I build greenfield apps with AI-assisted coding</a></td></tr>
     <tr><td>07 Apr 2025</td><td><a href="https://shreyasprakash.com/stag-hunt-prisoners-dilemma/">Classify incentive problems into stag hunts, and prisoners dilemmas</a></td></tr>
     <tr><td>28 Mar 2025</td><td><a href="https://shreyasprakash.com/hyperpersonalised-learning/">Hyperpersonalised N=1 learning</a></td></tr>
-    <tr><td>19 Mar 2025</td><td><a href="https://shreyasprakash.com/software-essays/">New mediums for humans to complement superintelligence</a></td></tr>
     <!-- BLOG-POST-LIST:END -->
   </tbody>
 </table>
